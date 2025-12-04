@@ -1,6 +1,6 @@
 pos=50
 password=0
-with open('input', 'r') as file:
+with open('./1/input', 'r') as file:
     while line:= file.readline():
         x = -int(line[1:]) if line[0]=="L" else int(line[1:])
         for i in range(0, x, 1 if x > 0 else -1):
